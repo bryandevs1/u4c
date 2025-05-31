@@ -45,17 +45,17 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
               <ul>
                 {/* // to retain formatting */}
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/a">Home</Link>
                 </li>
                 <li>
-                  <Link to="/">Explore</Link>
+                  <Link to="/b">Explore</Link>
                 </li>
                 <li>
-                  <Link to="/">AbOut Us</Link>
+                  <Link to="/c">AbOut Us</Link>
                 </li>
 
                 <li>
-                  <Link to="/">Cash vs Crypto</Link>
+                  <Link to="/d">Cash vs Crypto</Link>
                 </li>
               </ul>
             </div>

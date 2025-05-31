@@ -27,17 +27,19 @@ const Index = () => {
           <div
             className="bg-slide active"
             style={{
-              backgroundImage: "url('/assets/img/U4C images (4).png')",
+              backgroundImage: "url('../../assets/img/U4C images (4).png')",
             }}
           ></div>
           <div
             className="bg-slide"
-            style={{ backgroundImage: "url('/assets/img/U4C images (3).png')" }}
+            style={{
+              backgroundImage: "url('../../assets/img/U4C images (3).png')",
+            }}
           ></div>
           <div
             className="bg-slide"
             style={{
-              backgroundImage: "url('/assets/img/U4C images (2).png')",
+              backgroundImage: "url('../../assets/img/U4C images (2).png')",
             }}
           ></div>
         </div>
@@ -452,7 +454,10 @@ const Index = () => {
                     <div className="count-wrap">
                       <span className="suffix">Transparency</span>
                     </div>
-                    <p>Provide transparency and <br />accountability to donors</p>
+                    <p>
+                      Provide transparency and <br />
+                      accountability to donors
+                    </p>
                   </div>
                 </div>
               </div>
