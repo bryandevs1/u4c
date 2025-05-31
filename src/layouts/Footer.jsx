@@ -38,7 +38,7 @@ const Footer = ({ footerSolidBg }) => {
               <div className="col-xl-3 col-lg-4 col-md-6">
                 <div className="widget about-widget">
                   <div className="footer-logo">
-                    <img src="assets/img/u4cw.png" alt="Sharki" />
+                    <img src="assets/img/u4cw.png" alt="u4c" />
                   </div>
                   <p>
                     Our journey is fueled by compassion and a profound

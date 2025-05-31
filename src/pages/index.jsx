@@ -4,6 +4,7 @@ import Counter from "../components//Counter";
 import Layout from "../layouts/Layout";
 import { projectSliderOne, projectSliderTwo } from "../sliderProps";
 import { useEffect } from "react";
+import bg1 from "/assets/img/U4C images (4).png";
 
 const Index = () => {
   useEffect(() => {
@@ -27,7 +28,7 @@ const Index = () => {
           <div
             className="bg-slide active"
             style={{
-              backgroundImage: "url('../../assets/img/U4C images (4).png')",
+              backgroundImage: { bg1 },
             }}
           ></div>
           <div
@@ -58,7 +59,7 @@ const Index = () => {
                   Merch with a purpose
                 </h1>
                 <Link
-                  to="/project-1"
+                  to="/"
                   className="main-btn "
                   data-aos="fade-up"
                   data-aos-delay="500"
