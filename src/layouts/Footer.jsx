@@ -12,18 +12,18 @@ const Footer = ({ footerSolidBg }) => {
             <div className="row justify-content-lg-between justify-content-center align-items-center">
               <div className="col-lg-7 col-md-8 col-sm-10">
                 <span className="cta-tagline">
-                  25 Years Of Experience In Crowdfunding
+                  No 1. Crowdfunding Funding Platform in Nigeria
                 </span>
                 <h3 className="cta-title">
-                  Raise Hand to Promote Best Products
+                  Lend a Hand to Power Meaningful Change
                 </h3>
               </div>
               <div className="col-lg-auto col-md-6">
                 <Link
-                  to="/contact"
+                  to="/explore"
                   className="main-btn bordered-btn bordered-white mt-md-30"
                 >
-                  Promote Your Products <i className="far fa-arrow-right" />
+                  Make A Donation <i className="far fa-arrow-right" />
                 </Link>
               </div>
             </div>
@@ -126,15 +126,10 @@ const Footer = ({ footerSolidBg }) => {
               <div className="col-md-6">
                 <ul className="social-icons">
                   <li>
-                    <a href="#">
-                      Privacy Policy | 
-                      
-                    </a>
+                    <a href="#">Privacy Policy |</a>
                   </li>
                   <li>
-                    <a href="#">
-                     Terms and Conditions
-                    </a>
+                    <a href="#">Terms and Conditions</a>
                   </li>
                   <li>
                     <a href="#">

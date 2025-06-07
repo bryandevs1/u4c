@@ -5,6 +5,7 @@ import Layout from "../layouts/Layout";
 import { projectSliderOne, projectSliderTwo } from "../sliderProps";
 import { useEffect } from "react";
 import bg1 from "../assets/img/U4C4.png";
+import bg2 from "../assets/img/U4C3.png";
 
 const Index = () => {
   useEffect(() => {
@@ -34,7 +35,7 @@ const Index = () => {
           <div
             className="bg-slide"
             style={{
-              backgroundImage: "url('../assets/img/U4C2.png')",
+              backgroundImage: `url(${bg2})`,
             }}
           ></div>
           <div

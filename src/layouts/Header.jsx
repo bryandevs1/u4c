@@ -42,20 +42,26 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
               </Link>
             </div>
             <div className="nav-menu" id="menu">
-              <ul>
-                {/* // to retain formatting */}
+              <ul className="d-flex flex-row list-unstyled gap-3 mb-0 p-0">
                 <li>
-                  <Link to="/a">Home</Link>
+                  <Link to="/" className="nav-link">
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/b">Explore</Link>
+                  <Link to="/explore" className="nav-link">
+                    Explore
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/c">AbOut Us</Link>
+                  <Link to="/about" className="nav-link">
+                    About Us
+                  </Link>
                 </li>
-
                 <li>
-                  <Link to="/d">Cash vs Crypto</Link>
+                  <Link to="/cvp" className="nav-link">
+                    Cash vs Crypto
+                  </Link>
                 </li>
               </ul>
             </div>
