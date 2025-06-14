@@ -20,7 +20,7 @@ const Dashboard = () => {
               <div className="event-content">
                 <ul className="meta">
                   <li>
-                    <Link to="/project-1" className="category">
+                    <Link to="/explore" className="category">
                       Music Party
                     </Link>
                   </li>
@@ -58,7 +58,7 @@ const Dashboard = () => {
               <div className="event-content">
                 <ul className="meta">
                   <li>
-                    <Link to="/project-1" className="category">
+                    <Link to="/explore" className="category">
                       Meetup
                     </Link>
                   </li>
@@ -96,7 +96,7 @@ const Dashboard = () => {
               <div className="event-content">
                 <ul className="meta">
                   <li>
-                    <Link to="/project-1" className="category">
+                    <Link to="/explore" className="category">
                       Meetup
                     </Link>
                   </li>
@@ -134,7 +134,7 @@ const Dashboard = () => {
               <div className="event-content">
                 <ul className="meta">
                   <li>
-                    <Link to="/project-1" className="category">
+                    <Link to="/explore" className="category">
                       Meetup
                     </Link>
                   </li>
@@ -172,7 +172,7 @@ const Dashboard = () => {
               <div className="event-content">
                 <ul className="meta">
                   <li>
-                    <Link to="/project-1" className="category">
+                    <Link to="/explore" className="category">
                       Meetup
                     </Link>
                   </li>
@@ -210,7 +210,7 @@ const Dashboard = () => {
               <div className="event-content">
                 <ul className="meta">
                   <li>
-                    <Link to="/project-1" className="category">
+                    <Link to="/explore" className="category">
                       Meetup
                     </Link>
                   </li>

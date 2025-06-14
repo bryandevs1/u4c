@@ -12,7 +12,7 @@ const Home = (
   Project = (
     <Fragment>
       <li>
-        <Link to="/project-1">Project One</Link>
+        <Link to="/explore">Project One</Link>
       </li>
       <li>
         <Link to="/project-2">Project Two</Link>

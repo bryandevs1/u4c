@@ -176,7 +176,7 @@ const Index2 = () => {
                 />
                 <div className="content">
                   <div className="cats">
-                    <Link to="/project-1">Video &amp; Movies</Link>
+                    <Link to="/explore">Video &amp; Movies</Link>
                   </div>
                   <div className="author">
                     <img src="assets/img/author-thumbs/01.jpg" alt="Thumb" />
@@ -215,7 +215,7 @@ const Index2 = () => {
                 />
                 <div className="content">
                   <div className="cats">
-                    <Link to="/project-1">Educations</Link>
+                    <Link to="/explore">Educations</Link>
                   </div>
                   <div className="author">
                     <img src="assets/img/author-thumbs/02.jpg" alt="Thumb" />
@@ -254,7 +254,7 @@ const Index2 = () => {
                 />
                 <div className="content">
                   <div className="cats">
-                    <Link to="/project-1">Technology</Link>
+                    <Link to="/explore">Technology</Link>
                   </div>
                   <div className="author">
                     <img src="assets/img/author-thumbs/03.jpg" alt="Thumb" />
@@ -293,7 +293,7 @@ const Index2 = () => {
                 />
                 <div className="content">
                   <div className="cats">
-                    <Link to="/project-1">Clothes</Link>
+                    <Link to="/explore">Clothes</Link>
                   </div>
                   <div className="author">
                     <img src="assets/img/author-thumbs/01.jpg" alt="Thumb" />
@@ -332,7 +332,7 @@ const Index2 = () => {
                 />
                 <div className="content">
                   <div className="cats">
-                    <Link to="/project-1">Covid -19</Link>
+                    <Link to="/explore">Covid -19</Link>
                   </div>
                   <div className="author">
                     <img src="assets/img/author-thumbs/02.jpg" alt="Thumb" />
@@ -371,7 +371,7 @@ const Index2 = () => {
                 />
                 <div className="content">
                   <div className="cats">
-                    <Link to="/project-1">Business</Link>
+                    <Link to="/explore">Business</Link>
                   </div>
                   <div className="author">
                     <img src="assets/img/author-thumbs/03.jpg" alt="Thumb" />

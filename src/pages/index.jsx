@@ -57,7 +57,7 @@ const Index = () => {
                   Crowdfunding Agency
                 </span>
                 <h1 className="title " data-aos="fade-up" data-aos-delay="400">
-                  Merch with a purpose
+                  Your Support, Their Future
                 </h1>
                 <Link
                   to="/"
@@ -83,55 +83,6 @@ const Index = () => {
         </div>
       </section>
       {/*====== Hero Area End ======*/}
-
-      {/*====== About Section Start ======*/}
-      {/* <section className="about-section-one">
-        <div className="container">
-          <div className="row align-items-center justify-content-lg-start justify-content-center">
-            <div className="col-xl-6 col-lg-7 col-md-9">
-              <div className="about-img">
-                <img src="assets/img/about/about-one.jpg" alt="Image" />
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-5 col-md-10 offset-xl-1">
-              <div className="about-text mt-md-70 mb-md-50">
-                <div className="common-heading mb-30">
-                  <span className="tagline">
-                    <i className="fas fa-plus" /> who we are
-                    <span className="heading-shadow-text">Abouit Us</span>
-                  </span>
-                  <h2 className="title">Why Choose Us</h2>
-                </div>
-                <p>
-                  Sedut perspiciatis unde omnis iste natus voluptatem
-                  accusantium dolore dantiumy totam rem apeam, eaque ipsa
-                  quaventore veritatis quasi architecto beatae.
-                </p>
-                <div className="author-note " data-aos="fade-up">
-                  <ul>
-                    <li>
-                      <i className="far fa-check" /> Non-Profite Crowdfunding
-                      Agency
-                    </li>
-                    <li>
-                      <i className="far fa-check" />{" "}
-                      {`We're Successful Institute`}{" "}
-                    </li>
-                  </ul>
-                  <div className="author-info">
-                    <div className="author-img">
-                      <img src="assets/img/author-thumbs/01.jpg" alt="Image" />
-                    </div>
-                    <h5 className="name">Michel H. Heart</h5>
-                    <span className="title">CEO &amp; Founder</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/*====== About Section End ======*/}
       {/*====== Project Section Start ======*/}
       <section className="project-section project-section-extra-gap">
         <div className="container-fluid fluid-extra-padding">
@@ -143,48 +94,49 @@ const Index = () => {
             <h2 className=" ">Explore Our Campaigns</h2>
           </div>
           <div className="row project-items no-shadow">
-            <div className=" col-12 col-sm-6 col-md-4 mb-4">
-              <div className="project-item">
-                <div
-                  className="thumb"
-                  style={{
-                    backgroundImage: "url(assets/img/01.png)",
-                  }}
-                />
-                <div className="content">
-                  <h2 className="title">
-                    <Link to="/">Clean Water and Sanitation.</Link>
-                  </h2>
-                  <div className="cats">
-                    <Link to="/">Ongoing</Link>
-                  </div>
-                  <div className="author">
-                    <img src="assets/img/01.png" alt="Thumb" />
-                    <Link to="/"> lrichards.dev@gmail.com</Link>
-                  </div>
-                  <h5 className="title">
-                    <Link to="/">
-                      Summary Ensure availability and sustainable management of
-                      wa ...
-                    </Link>
-                  </h5>
-                  <div className="project-stats">
-                    <div className="stats-value">
-                      <span className="value-title">
-                        Raised of <span className="value">$59,689</span>
-                      </span>
-                      <span className="stats-percentage">87%</span>
-                    </div>
-                    <div className="stats-bar" data-value={87}>
-                      <div className="bar-line" />
-                    </div>
-                  </div>
-                  <span className="date">
-                    <i className="far fa-calendar-alt" /> 25 February 2021
-                  </span>
-                </div>
-              </div>
-            </div>
+<div className="col-12 col-sm-6 col-md-4 mb-4">
+  <div className="project-item">
+    <div
+      className="thumb"
+      style={{
+        backgroundImage: "url(assets/img/tamarind.png)",
+      }}
+    />
+    <div className="content">
+      <h2 className="title">
+        <Link to="/project-details">Tamarind Community Donation Drive</Link>
+      </h2>
+      <div className="cats">
+        <Link to="/">Ongoing</Link>
+      </div>
+      <div className="author">
+        <img src="assets/img/tamarind2.jpeg" alt="Tamarind Logo" />
+        <Link to="/"> tamarind.initiative@gmail.com</Link>
+      </div>
+      <h5 className="title">
+        <Link to="/project-details">
+          Donate food, clothing, shoes, blankets, toiletries, and more to help
+          people facing hardship in Yobe State.
+        </Link>
+      </h5>
+      <div className="project-stats">
+        <div className="stats-value">
+          <span className="value-title">
+            Raised of <span className="value">$12,480</span>
+          </span>
+          <span className="stats-percentage">42%</span>
+        </div>
+        <div className="stats-bar" data-value={42}>
+          <div className="bar-line" />
+        </div>
+      </div>
+      <span className="date">
+        <i className="far fa-calendar-alt" /> 14 June 2025
+      </span>
+    </div>
+  </div>
+</div>
+
             <div className=" col-12 col-sm-6 col-md-4 mb-4">
               <div className="project-item">
                 <div

@@ -1088,7 +1088,7 @@ const Faq = () => {
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium totam
                 </p>
-                <Link to="/project-1" className="link">
+                <Link to="/explore" className="link">
                   <i className="far fa-arrow-right" />
                 </Link>
                 <span className="box-index">01</span>
@@ -1134,7 +1134,7 @@ const Faq = () => {
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium totam
                 </p>
-                <Link to="/project-1" className="link">
+                <Link to="/explore" className="link">
                   <i className="far fa-arrow-right" />
                 </Link>
                 <span className="box-index">03</span>

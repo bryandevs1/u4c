@@ -12,8 +12,6 @@ import NewsDetails from "./pages/news-details";
 import NewsStandard from "./pages/news-standard";
 import Pricing from "./pages/pricing";
 import Project1 from "./pages/project-1";
-import Project2 from "./pages/project-2";
-import Project3 from "./pages/project-3";
 import ProjectDetails from "./pages/project-details";
 // import SignUpPage from "./pages/SignUpPage";
 import TeamMember from "./pages/team-member";
@@ -31,9 +29,7 @@ const routes = [
   // { path: "/login", Component: Login },
   { path: "/cvp", Component: NewsStandard },
   { path: "/pricing", Component: Pricing },
-  { path: "/project-1", Component: Project1 },
-  { path: "/project-2", Component: Project2 },
-  { path: "/project-3", Component: Project3 },
+  { path: "/explore", Component: Project1 },
   { path: "/project-details", Component: ProjectDetails },
   //   { path: "/sign-up", Component: SignUpPage },
   { path: "/team-member", Component: TeamMember },

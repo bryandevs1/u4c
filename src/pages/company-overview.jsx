@@ -75,7 +75,7 @@ const CompanyOverview = () => {
                   </div>
                 </div>
                 <div className="col-auto">
-                  <Link to="/project-1" className="main-btn mb-30">
+                  <Link to="/explore" className="main-btn mb-30">
                     View All Category <i className="far fa-angle-right" />
                   </Link>
                 </div>

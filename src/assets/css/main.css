@@ -2778,6 +2778,7 @@ a:hover {
 .project-details-tab .description-title {
   font-size: 24px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .project-details-tab .description-list {
