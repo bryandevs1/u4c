@@ -5,6 +5,8 @@ import { activeNavMenu, animation, aTagClick, dataPoggress } from "../utils";
 import Footer from "./Footer";
 import Header from "./Header";
 import MobileHeader from "./MobileHeader";
+import CookieConsent from "../pages/cookieconsent";
+import ScrollToTop from "../pages/ScrollToTop";
 
 const Layout = ({
   children,
@@ -24,6 +26,7 @@ const Layout = ({
 
   return (
     <>
+      <ScrollToTop />
       <Header
         transparentTop={transparentTop}
         transparentHeader={transparentHeader}
@@ -35,6 +38,7 @@ const Layout = ({
         topSecondaryBg={topSecondaryBg}
       />
       {children}
+      <CookieConsent />
       <Footer footerSolidBg={footerSolidBg} />
     </>
   );
