@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import PageBanner from "../components//PageBanner";
 import Layout from "../layouts/Layout";
+import logo from "../assets/img/01.png";
 
 const Project1 = () => {
   return (
@@ -14,7 +15,7 @@ const Project1 = () => {
                 <div
                   className="thumb"
                   style={{
-                    backgroundImage: "url(assets/img/01.png)",
+                    backgroundImage: `url(${logo})`,
                   }}
                 />
                 <div className="content">
@@ -25,7 +26,7 @@ const Project1 = () => {
                     <Link to="/">Ongoing</Link>
                   </div>
                   <div className="author">
-                    <img src="assets/img/01.png" alt="Thumb" />
+                    <img src={logo} alt="Thumb" />
                     <Link to="/"> lrichards.dev@gmail.com</Link>
                   </div>
                   <h5 className="title">
@@ -56,7 +57,7 @@ const Project1 = () => {
                 <div
                   className="thumb"
                   style={{
-                    backgroundImage: "url(assets/img/01.png)",
+                    backgroundImage: `url(${logo})`,
                   }}
                 />
                 <div className="content">
@@ -67,7 +68,7 @@ const Project1 = () => {
                     <Link to="/">Ongoing</Link>
                   </div>
                   <div className="author">
-                    <img src="assets/img/01.png" alt="Thumb" />
+                    <img src={logo} alt="Thumb" />
                     <Link to="/"> lrichards.dev@gmail.com</Link>
                   </div>
                   <h5 className="title">
@@ -98,7 +99,7 @@ const Project1 = () => {
                 <div
                   className="thumb"
                   style={{
-                    backgroundImage: "url(assets/img/01.png)",
+                    backgroundImage: `url(${logo})`,
                   }}
                 />
                 <div className="content">
@@ -109,7 +110,7 @@ const Project1 = () => {
                     <Link to="/">Ongoing</Link>
                   </div>
                   <div className="author">
-                    <img src="assets/img/01.png" alt="Thumb" />
+                    <img src={logo} alt="Thumb" />
                     <Link to="/"> lrichards.dev@gmail.com</Link>
                   </div>
                   <h5 className="title">
@@ -140,7 +141,7 @@ const Project1 = () => {
                 <div
                   className="thumb"
                   style={{
-                    backgroundImage: "url(assets/img/01.png)",
+                    backgroundImage: `url(${logo})`,
                   }}
                 />
                 <div className="content">
@@ -151,7 +152,7 @@ const Project1 = () => {
                     <Link to="/">Ongoing</Link>
                   </div>
                   <div className="author">
-                    <img src="assets/img/01.png" alt="Thumb" />
+                    <img src={logo} alt="Thumb" />
                     <Link to="/"> lrichards.dev@gmail.com</Link>
                   </div>
                   <h5 className="title">
@@ -182,7 +183,7 @@ const Project1 = () => {
                 <div
                   className="thumb"
                   style={{
-                    backgroundImage: "url(assets/img/01.png)",
+                    backgroundImage: `url(${logo})`,
                   }}
                 />
                 <div className="content">
@@ -193,7 +194,7 @@ const Project1 = () => {
                     <Link to="/">Ongoing</Link>
                   </div>
                   <div className="author">
-                    <img src="assets/img/01.png" alt="Thumb" />
+                    <img src={logo} alt="Thumb" />
                     <Link to="/"> lrichards.dev@gmail.com</Link>
                   </div>
                   <h5 className="title">
@@ -224,7 +225,7 @@ const Project1 = () => {
                 <div
                   className="thumb"
                   style={{
-                    backgroundImage: "url(assets/img/01.png)",
+                    backgroundImage: `url(${logo})`,
                   }}
                 />
                 <div className="content">
@@ -235,7 +236,7 @@ const Project1 = () => {
                     <Link to="/">Ongoing</Link>
                   </div>
                   <div className="author">
-                    <img src="assets/img/01.png" alt="Thumb" />
+                    <img src={logo} alt="Thumb" />
                     <Link to="/"> lrichards.dev@gmail.com</Link>
                   </div>
                   <h5 className="title">

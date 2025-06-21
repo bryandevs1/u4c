@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/img/u4cw.png";
 const Footer = ({ footerSolidBg }) => {
   return (
     <footer
@@ -38,7 +39,7 @@ const Footer = ({ footerSolidBg }) => {
               <div className="col-xl-3 col-lg-4 col-md-6">
                 <div className="widget about-widget">
                   <div className="footer-logo">
-                    <img src="assets/img/u4cw.png" alt="u4c" />
+                    <img src={logo} alt="u4c" />
                   </div>
                   <p>
                     Our journey is fueled by compassion and a profound
