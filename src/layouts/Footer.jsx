@@ -126,10 +126,10 @@ const Footer = ({ footerSolidBg }) => {
               <div className="col-md-6">
                 <ul className="social-icons">
                   <li>
-                    <a href="#">Privacy Policy |</a>
+                    <Link to="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <a href="#">Terms and Conditions</a>
+                    <Link to="/terms-and-conditions">Terms and Conditions</Link>
                   </li>
                   <li>
                     <a href="#">

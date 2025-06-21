@@ -6,6 +6,15 @@ import { projectSliderOne, projectSliderTwo } from "../sliderProps";
 import { useEffect } from "react";
 import bg1 from "../assets/img/U4C4.png";
 import bg2 from "../assets/img/U4C3.png";
+import bg3 from "../assets/img/01.png";
+import heroline from "../assets/img/hero/hero-line.png";
+import heroline2 from "../assets/img/hero/hero-line-2.png";
+import bg4 from "../assets/img/tamarind.png";
+import img2 from "../assets/img/tamarind2.jpeg";
+import bg6 from "../assets/img/01.png"; 
+import bg7 from "../assets/img/bg.png";
+import img4 from "../assets/img/save-money.png";
+import img7 from "../assets/img/cg.png";
 
 const Index = () => {
   useEffect(() => {
@@ -22,7 +31,7 @@ const Index = () => {
     return () => clearInterval(intervalId);
   }, []);
   return (
-    <Layout transparentHeader transparentTop footerSolidBg>
+    <Layout transparentHeader transparentTop >
       <section className="hero-area-one">
         <div className="hero-background-slider">
           <div className="bg-overlay"></div>
@@ -41,7 +50,7 @@ const Index = () => {
           <div
             className="bg-slide"
             style={{
-              backgroundImage: "url('../../assets/img/U4C images (2).png')",
+              backgroundImage: `url(${bg3})`,
             }}
           ></div>
         </div>
@@ -72,10 +81,10 @@ const Index = () => {
           </div>
           <div className="hero-shapes">
             <div className="hero-line-one">
-              <img src="assets/img/hero/hero-line.png" alt="Line" />
+              <img src={heroline} alt="Line" />
             </div>
             <div className="hero-line-two">
-              <img src="assets/img/hero/hero-line-2.png" alt="Line" />
+              <img src={heroline2} alt="Line" />
             </div>
             <div className="dot-one" />
             <div className="dot-two" />
@@ -99,7 +108,7 @@ const Index = () => {
     <div
       className="thumb"
       style={{
-        backgroundImage: "url(assets/img/tamarind.png)",
+        backgroundImage: `url(${bg4})`,
       }}
     />
     <div className="content">
@@ -110,7 +119,7 @@ const Index = () => {
         <Link to="/">Ongoing</Link>
       </div>
       <div className="author">
-        <img src="assets/img/tamarind2.jpeg" alt="Tamarind Logo" />
+        <img src={img2} alt="Tamarind Logo" />
         <Link to="/"> tamarind.initiative@gmail.com</Link>
       </div>
       <h5 className="title">
@@ -142,7 +151,7 @@ const Index = () => {
                 <div
                   className="thumb"
                   style={{
-                    backgroundImage: "url(assets/img/01.png)",
+                    backgroundImage: `url(${bg6})`,
                   }}
                 />
                 <div className="content">
@@ -153,7 +162,7 @@ const Index = () => {
                     <Link to="/">Ongoing</Link>
                   </div>
                   <div className="author">
-                    <img src="assets/img/01.png" alt="Thumb" />
+                    <img src={bg6} alt="Thumb" />
                     <Link to="/"> lrichards.dev@gmail.com</Link>
                   </div>
                   <h5 className="title">
@@ -184,7 +193,7 @@ const Index = () => {
                 <div
                   className="thumb"
                   style={{
-                    backgroundImage: "url(assets/img/01.png)",
+                    backgroundImage: `url(${bg6})`,
                   }}
                 />
                 <div className="content">
@@ -195,7 +204,7 @@ const Index = () => {
                     <Link to="/">Ongoing</Link>
                   </div>
                   <div className="author">
-                    <img src="assets/img/01.png" alt="Thumb" />
+                    <img src={bg6} alt="Thumb" />
                     <Link to="/"> lrichards.dev@gmail.com</Link>
                   </div>
                   <h5 className="title">
@@ -239,7 +248,7 @@ const Index = () => {
         {/* FULL-WIDTH CTA BOX - NOT inside container */}
         <div
           className="cta-box cta-double-content full-width"
-          style={{ backgroundImage: "url(assets/img/bg.png)" }}
+          style={{ backgroundImage: `url(${bg7})` }}
         >
           <div className="container">
             <div className="row justify-content-center">
@@ -247,7 +256,7 @@ const Index = () => {
               <div className="col-xl-4 col-lg-5 col-md-9">
                 <div className="content text-center">
                   <img
-                    src="assets/img/save-money.png"
+                    src={img4}
                     alt="Logo"
                     className="cta-logo mb-3"
                     style={{ width: "60px" }}
@@ -266,7 +275,7 @@ const Index = () => {
               <div className="col-xl-4 col-lg-5 col-md-9">
                 <div className="content text-center">
                   <img
-                    src="assets/img/cg.png"
+                    src={img7}
                     alt="Logo"
                     className="cta-logo mb-3"
                     style={{ width: "60px" }}

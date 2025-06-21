@@ -16,6 +16,8 @@ import ProjectDetails from "./pages/project-details";
 // import SignUpPage from "./pages/SignUpPage";
 import TeamMember from "./pages/team-member";
 import Testimonial from "./pages/testimonial";
+import Terms from "./pages/tandcs";
+import PrivacyPolicy from "./pages/privacy";
 
 const routes = [
   { path: "/", Component: Home },
@@ -34,6 +36,8 @@ const routes = [
   //   { path: "/sign-up", Component: SignUpPage },
   { path: "/team-member", Component: TeamMember },
   { path: "/testimonial", Component: Testimonial },
+  { path: "/terms-and-conditions", Component: Terms },
+  { path: "/privacy-policy", Component: PrivacyPolicy },
 ];
 
 export default routes;
