@@ -9,7 +9,7 @@ import bg2 from "../assets/img/U4C3.png";
 import bg3 from "../assets/img/01.png";
 import heroline from "../assets/img/hero/hero-line.png";
 import heroline2 from "../assets/img/hero/hero-line-2.png";
-import bg4 from "../assets/img/tamarind.png";
+import bg4 from "../assets/img/tamarind2.jpeg";
 import img2 from "../assets/img/tamarind2.jpeg";
 import bg6 from "../assets/img/01.png"; 
 import bg7 from "../assets/img/bg.png";
