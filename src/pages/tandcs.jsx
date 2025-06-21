@@ -17,7 +17,7 @@ const Terms = () => {
               <div className="terms-header text-center mb-60">
                 <div className="common-heading text-center">
                   <span className="tagline">
-                    <i className="fas fa-plus" /> Legal Agreement
+                    <i className="fas fa-plus" /> Legal Agreement:
                     <span className="justify-content-center heading-shadow-text centerr">
                       Terms
                     </span>
