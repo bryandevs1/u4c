@@ -12,11 +12,8 @@ const Footer = ({ footerSolidBg }) => {
           <div className="container">
             <div className="row justify-content-lg-between justify-content-center align-items-center">
               <div className="col-lg-7 col-md-8 col-sm-10">
-                <span className="cta-tagline">
-                  No 1. Crowdfunding Funding Platform in Nigeria
-                </span>
                 <h3 className="cta-title">
-                  Lend a Hand to Power Meaningful Change
+                  Donate, fundraise, or <br />share — make a difference.
                 </h3>
               </div>
               <div className="col-lg-auto col-md-6">

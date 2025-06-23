@@ -36,31 +36,27 @@ const About = () => {
                 </p>
                 <ul className="check-list mt-30">
                   <li data-aos="fade-up" data-aos-delay="0">
-                    <h5 className="title">
-                      United in Purpose, Driven by Impact
-                    </h5>
+                    <h5 className="title">U4C Giving Program</h5>
                     <p>
-                      We’re more than a movement — we’re a mission. U4C empowers
-                      change through creative action and community-driven
-                      solutions that make a real difference.
+                      Your support fuels our mission. Every donation or share
+                      helps us create real, lasting change for communities in
+                      need.
                     </p>
                   </li>
                   <li data-aos="fade-up" data-aos-delay="100">
-                    <h5 className="title">Powered by Your Generosity</h5>
+                    <h5 className="title">Embark on a Journey with Us</h5>
                     <p>
-                      Thanks to your support, we’re able to raise awareness,
-                      fund life-changing projects, and build pathways to a
-                      better future — one contribution at a time.
+                      Every project brings hope to resilient communities. See
+                      how your support through #United4Change transforms lives.
                     </p>
                   </li>
                   <li data-aos="fade-up" data-aos-delay="200">
                     <h5 className="title">
-                      Be a Voice for Change with #United4Change
+                      Share Your Support with #United4Change
                     </h5>
                     <p>
-                      Join a global community united by compassion. Spread the
-                      word, share your story, and inspire impact with
-                      #United4Change.
+                      Join a global movement for good. Use #United4Change to
+                      share your cause and inspire others to give their way.
                     </p>
                   </li>
                 </ul>
@@ -185,13 +181,17 @@ const About = () => {
                   <div className="icon">
                     <i className="flaticon-crowdfunding" />
                   </div>
-                  <div className="content white-color">
+                  <div className="content">
                     <div className="count-wrap">
-                      <span className="suffix">Global</span>
+                      <span className="suffix text-white">Global</span>
                     </div>
-                    <p>
-                      Benefit charitable <br />
-                      organizations worldwide{" "}
+                    <p
+                      className="
+                      text-white"
+                    >
+                      We work with credible <br />
+                      local organizations worldwide <br />
+                      to reach communities often left behind.
                     </p>
                   </div>
                 </div>
@@ -201,14 +201,14 @@ const About = () => {
                   <div className="icon">
                     <i className="flaticon-ecological" />
                   </div>
-                  <div className="content white-color">
+                  <div className="content">
                     <div className="count-wrap">
-                      <span className="suffix">Mission</span>
+                      <span className="suffix text-white">Transparency</span>
                     </div>
-                    <p>
-                      Revolutionize global philanthropy
-                      <br />
-                      through technology.{" "}
+                    <p className="text-white">
+                      We ensure donors can trace <br />
+                      exactly how and where <br />
+                      their money is used.
                     </p>
                   </div>
                 </div>
@@ -218,29 +218,14 @@ const About = () => {
                   <div className="icon">
                     <i className="flaticon-badges" />
                   </div>
-                  <div className="content white-color">
+                  <div className="content">
                     <div className="count-wrap">
-                      <span className="suffix">Innovate</span>
+                      <span className="suffix text-white">Innovation</span>
                     </div>
-                    <p>
-                      Bitcoin and <br />
-                      Blockchain Technology{" "}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-auto col-lg-3 col-md-6 col-sm-8">
-                <div className="counter-box mb-60">
-                  <div className="icon">
-                    <i className="flaticon-support" />
-                  </div>
-                  <div className="content white-color">
-                    <div className="count-wrap">
-                      <span className="suffix">Transparency</span>
-                    </div>
-                    <p>
-                      Provide transparency and <br />
-                      accountability to donors{" "}
+                    <p className="text-white">
+                      With blockchain and digital cash, <br />
+                      we offer secure, transparent, <br />
+                      and borderless giving.
                     </p>
                   </div>
                 </div>
@@ -252,7 +237,7 @@ const About = () => {
       {/*====== Counter With Image Text Block End ======*/}
 
       {/*====== Partners Section With CTA Start ======*/}
-      <section className="partners-section">
+      <section className="partners-section -mb-10">
         <div className="container">
           <div className="partners-logos partners-section-padding section-border-top"></div>
         </div>

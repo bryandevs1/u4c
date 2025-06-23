@@ -31,7 +31,7 @@ const Index = () => {
     return () => clearInterval(intervalId);
   }, []);
   return (
-    <Layout transparentHeader transparentTop >
+    <Layout transparentHeader transparentTop>
       <section className="hero-area-one">
         <div className="hero-background-slider">
           <div className="bg-overlay"></div>
@@ -63,7 +63,7 @@ const Index = () => {
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  Crowdfunding Agency
+                  Fund Projects. Track Impact. Be the Change.
                 </span>
                 <h1 className="title " data-aos="fade-up" data-aos-delay="400">
                   Your Support, Their Future
@@ -103,48 +103,50 @@ const Index = () => {
             <h2 className=" ">Explore Our Campaigns</h2>
           </div>
           <div className="row project-items no-shadow">
-<div className="col-12 col-sm-6 col-md-4 mb-4">
-  <div className="project-item">
-    <div
-      className="thumb"
-      style={{
-        backgroundImage: `url(${bg4})`,
-      }}
-    />
-    <div className="content">
-      <h2 className="title">
-        <Link to="/project-details">Tamarind Community Donation Drive</Link>
-      </h2>
-      <div className="cats">
-        <Link to="/">Ongoing</Link>
-      </div>
-      <div className="author">
-        <img src={img2} alt="Tamarind Logo" />
-        <Link to="/"> tamarind.initiative@gmail.com</Link>
-      </div>
-      <h5 className="title">
-        <Link to="/project-details">
-          Donate food, clothing, shoes, blankets, toiletries, and more to help
-          people facing hardship in Yobe State.
-        </Link>
-      </h5>
-      <div className="project-stats">
-        <div className="stats-value">
-          <span className="value-title">
-            Raised of <span className="value">$12,480</span>
-          </span>
-          <span className="stats-percentage">42%</span>
-        </div>
-        <div className="stats-bar" data-value={42}>
-          <div className="bar-line" />
-        </div>
-      </div>
-      <span className="date">
-        <i className="far fa-calendar-alt" /> 14 June 2025
-      </span>
-    </div>
-  </div>
-</div>
+            <div className="col-12 col-sm-6 col-md-4 mb-4">
+              <div className="project-item">
+                <div
+                  className="thumb"
+                  style={{
+                    backgroundImage: `url(${bg4})`,
+                  }}
+                />
+                <div className="content">
+                  <h2 className="title">
+                    <Link to="/project-details">
+                      Tamarind Community Donation Drive
+                    </Link>
+                  </h2>
+                  <div className="cats">
+                    <Link to="/">Ongoing</Link>
+                  </div>
+                  <div className="author">
+                    <img src={img2} alt="Tamarind Logo" />
+                    <Link to="/"> tamarind.initiative@gmail.com</Link>
+                  </div>
+                  <h5 className="title">
+                    <Link to="/project-details">
+                      Donate food, clothing, shoes, blankets, toiletries, and
+                      more to help people facing hardship in Yobe State.
+                    </Link>
+                  </h5>
+                  <div className="project-stats">
+                    <div className="stats-value">
+                      <span className="value-title">
+                        Raised of <span className="value">$12,480</span>
+                      </span>
+                      <span className="stats-percentage">42%</span>
+                    </div>
+                    <div className="stats-bar" data-value={42}>
+                      <div className="bar-line" />
+                    </div>
+                  </div>
+                  <span className="date">
+                    <i className="far fa-calendar-alt" /> 14 June 2025
+                  </span>
+                </div>
+              </div>
+            </div>
 
             <div className=" col-12 col-sm-6 col-md-4 mb-4">
               <div className="project-item">
@@ -262,7 +264,10 @@ const Index = () => {
                     style={{ width: "60px" }}
                   />
                   <h2 className="cta-title">Donate</h2>
-                  <p>Explore projects to contribute to around the world.</p>
+                  <p>
+                    Your donation supports vital campaigns worldwide. Every
+                    dollar counts.
+                  </p>
                   <Link to="/" className="main-btn">
                     Discover Projects <i className="far fa-arrow-right" />
                   </Link>
@@ -281,9 +286,13 @@ const Index = () => {
                     style={{ width: "60px" }}
                   />
                   <h2 className="cta-title">Start A Project</h2>
-                  <p>Nonprofits ready to fundraise can start a project here.</p>
+                  <p>
+                    {" "}
+                    Nonprofits ready to make a difference can start their own
+                    fundraising campaign here.
+                  </p>
                   <Link to="/" className="main-btn">
-                    Fundraise <i className="far fa-arrow-right" />
+                    Start a Project <i className="far fa-arrow-right" />
                   </Link>
                 </div>
               </div>
@@ -355,7 +364,7 @@ const Index = () => {
         </div>
       </section> */}
       {/*====== Counter Area End ======*/}
-      <section className="counter-with-image-text-block">
+      <section className="mb-80 counter-with-image-text-block">
         <div className="counter-boxes-area primary-soft-bg">
           <div className="container">
             <div className="row counter-boxes justify-content-lg-between justify-content-center">
@@ -369,8 +378,9 @@ const Index = () => {
                       <span className="suffix">Global</span>
                     </div>
                     <p>
-                      Benefit charitable <br />
-                      organizations worldwide
+                      We work with credible <br />
+                      local organizations worldwide <br />
+                      to reach communities often left behind.
                     </p>
                   </div>
                 </div>
@@ -382,12 +392,12 @@ const Index = () => {
                   </div>
                   <div className="content">
                     <div className="count-wrap">
-                      <span className="suffix">Mission</span>
+                      <span className="suffix">Transparency</span>
                     </div>
                     <p>
-                      Revolutionize global philanthropy
-                      <br />
-                      through technology.
+                      We ensure donors can trace <br />
+                      exactly how and where <br />
+                      their money is used.
                     </p>
                   </div>
                 </div>
@@ -399,27 +409,12 @@ const Index = () => {
                   </div>
                   <div className="content">
                     <div className="count-wrap">
-                      <span className="suffix">Innovate</span>
+                      <span className="suffix">Innovation</span>
                     </div>
                     <p>
-                      Bitcoin and <br />
-                      Blockchain Technology
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-auto col-lg-3 col-md-6 col-sm-8">
-                <div className="counter-box mb-60">
-                  <div className="icon">
-                    <i className="flaticon-support" />
-                  </div>
-                  <div className="content">
-                    <div className="count-wrap">
-                      <span className="suffix">Transparency</span>
-                    </div>
-                    <p>
-                      Provide transparency and <br />
-                      accountability to donors
+                      With blockchain and digital cash, <br />
+                      we offer secure, transparent, <br />
+                      and borderless giving.
                     </p>
                   </div>
                 </div>
