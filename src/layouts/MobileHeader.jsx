@@ -118,15 +118,15 @@ const MobileHeader = ({
           </li>
 
           <li>
-            <Link to="/">Explore</Link>
+            <Link to="/explore">Explore</Link>
           </li>
 
           <li>
-            <Link to="/">About Us</Link>
+            <Link to="/about">About Us</Link>
           </li>
 
           <li>
-            <Link to="/">Cash vs Crypto</Link>
+            <Link to="/cvp">Cash vs Crypto</Link>
           </li>
         </ul>
         <div className="panel-extra">
