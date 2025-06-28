@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import PageBanner from "../components/PageBanner";
 import Layout from "../layouts/Layout";
-import bg from "../assets/img/tamarind.jpeg";
+import bg from "../assets/img/tmri.jpg";
 
 const ProjectDetails = () => {
   return (
@@ -15,6 +15,7 @@ const ProjectDetails = () => {
                 <div
                   className="thumb"
                   style={{
+                    backgroundImage: `url(${bg})`, 
                     height: "900px",
                     width: "600px",
                     backgroundSize: "cover",
