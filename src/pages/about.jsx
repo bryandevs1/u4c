@@ -9,6 +9,7 @@ import { teamSlider } from "../sliderProps";
 import img1 from "../assets/img/U4C4.png";
 import img2 from "../assets/img/U4C3.png";
 import img3 from "../assets/img/U4C2.png";
+import tans from "../assets/img/icons/Transparent by Design.svg";
 
 const About = () => {
   const [video, setVideo] = useState(false);
@@ -326,7 +327,7 @@ const About = () => {
               <div className="col-xl-auto col-lg-3 col-md-6 col-sm-8">
                 <div className="counter-box mb-60">
                   <div className="icon">
-                    <i className="flaticon-ecological" />
+                    <img src={tans} className="fla" />
                   </div>
                   <div className="content">
                     <div className="count-wrap">
