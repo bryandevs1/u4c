@@ -15,7 +15,6 @@ const ProjectDetails = () => {
                 <div
                   className="thumb"
                   style={{
-                    backgroundImage: `url(${bg})`, 
                     height: "900px",
                     width: "600px",
                     backgroundSize: "cover",
