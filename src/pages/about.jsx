@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import Counter from "../components/Counter";
 import PageBanner from "../components//PageBanner";
 import VideoPopup from "../components//VideoPopup";
-import Layout from "../layouts/Layout";
+import Layout from "../layouts/Layout2";
 import { teamSlider } from "../sliderProps";
 import img1 from "../assets/img/U4C4.png";
 import img2 from "../assets/img/U4C3.png";

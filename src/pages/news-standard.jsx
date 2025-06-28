@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import PageBanner from "../components//PageBanner";
 import VideoPopup from "../components//VideoPopup";
-import Layout from "../layouts/Layout";
+import Layout from "../layouts/Layout2";
 import { getPagination, pagination } from "../utils";
 import img from "../assets/img/gik.jpg";
 

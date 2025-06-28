@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import PageBanner from "../components//PageBanner";
-import Layout from "../layouts/Layout";
+import Layout from "../layouts/Layout2";
 import logo from "../assets/img/01.png";
 
 const Project1 = () => {
