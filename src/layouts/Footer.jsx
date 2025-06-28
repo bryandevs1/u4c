@@ -13,8 +13,12 @@ const Footer = ({ footerSolidBg }) => {
             <div className="row justify-content-lg-between justify-content-center align-items-center">
               <div className="col-lg-7 col-md-8 col-sm-10">
                 <h3 className="cta-title">
-                  Donate, fundraise, or <br />share — make a difference.
+                  Get Involved
                 </h3>
+                <p className="cta-subtitle text-white">
+                  Whether you’re donating, fundraising, or spreading the word,
+                  you’re shaping lives.
+                </p>
               </div>
               <div className="col-lg-auto col-md-6">
                 <Link

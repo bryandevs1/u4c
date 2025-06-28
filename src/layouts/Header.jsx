@@ -1,36 +1,35 @@
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { stickyNav } from "../utils";
-import { Home, News, Pages, Project } from "./menus";
-// import SignAction from "../components/SignAction";
-import { useAppKitAccount } from "@reown/appkit/react";
-import { useAppKit } from "@reown/appkit/react";
+import logoAlt from "../assets/ORIGINAL-LOGO.png";
+import logo from "../assets/img/icons/ORIGINAL LOGO WHITE 2.svg"; // import your alternate logo
 import { ProfileDropdown } from "../components/dropdown";
-import logo from "../assets/ORIGINAL-LOGO.png";
 
 const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
-  const { address, isConnected, caipAddress, status, embeddedWalletInfo } =
-    useAppKitAccount();
-  const { open, _ } = useAppKit();
+  const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", stickyNav);
-  });
-  useEffect(() => {
-    console.log(
-      address,
-      isConnected,
-      caipAddress,
-      status,
-      embeddedWalletInfo,
-      "--- wallet info"
-    );
-  }, [address, caipAddress, embeddedWalletInfo, isConnected, status]);
+    const handleScroll = () => {
+      // Check if window is defined (for SSR)
+      if (typeof window !== "undefined") {
+        const scrollPosition = window.scrollY;
+        // Change state when scrolled past 100px (adjust as needed)
+        setIsSticky(scrollPosition > 100);
+      }
+      stickyNav(); // keep your existing sticky functionality
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <header
       className={`site-header sticky-header d-none d-lg-block ${
         transparentTop ? "topbar-transparent" : ""
-      } ${transparentHeader ? "transparent-header" : ""}`}
+      } ${transparentHeader ? "transparent-header" : ""} ${
+        isSticky ? "sticky-active" : ""
+      }`}
       id="header-sticky"
     >
       <div className="navbar-wrapper">
@@ -38,28 +37,41 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
           <div className="navbar-inner">
             <div className="site-logo">
               <Link to="/">
-                <img src={logo} alt="U4C" />
+                {/* Change logo based on sticky state */}
+                <img className={isSticky ? null : `flat`} src={isSticky ? logoAlt : logo} alt="U4C" />
               </Link>
             </div>
             <div className="nav-menu" id="menu">
               <ul className="d-flex flex-row list-unstyled gap-3 mb-0 p-0">
                 <li>
-                  <Link to="/" className="nav-link">
+                  <Link
+                    to="/"
+                    className={`nav-link ${isSticky ? "sticky-nav-link" : ""}`}
+                  >
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/explore" className="nav-link">
+                  <Link
+                    to="/explore"
+                    className={`nav-link ${isSticky ? "sticky-nav-link" : ""}`}
+                  >
                     Explore
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="nav-link">
+                  <Link
+                    to="/about"
+                    className={`nav-link ${isSticky ? "sticky-nav-link" : ""}`}
+                  >
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link to="/cvp" className="nav-link">
+                  <Link
+                    to="/cvp"
+                    className={`nav-link ${isSticky ? "sticky-nav-link" : ""}`}
+                  >
                     Cash vs Crypto
                   </Link>
                 </li>

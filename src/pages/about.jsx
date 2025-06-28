@@ -31,23 +31,30 @@ const About = () => {
                   </h2>
                 </div>
                 <p>
-                  Driven by kindness, strengthened by community, and powered by
-                  you.
+                  Our journey is fueled by compassion and powered by technology.
+                  United4Change delivers life-saving aid in healthcare,
+                  education, clean water, and basic needs to underserved
+                  communities, with full transparency and community trust at the
+                  core.
                 </p>
                 <ul className="check-list mt-30">
                   <li data-aos="fade-up" data-aos-delay="0">
                     <h5 className="title">U4C Giving Program</h5>
                     <p>
-                      Your support fuels our mission. Every donation or share
-                      helps us create real, lasting change for communities in
-                      need.
+                      Your support is the driving force behind the work we do,
+                      and we are deeply grateful for every contribution that
+                      helps us create this lasting difference. Whether you
+                      donate or share our mission, your involvement directly
+                      impacts the lives of communities in need.
                     </p>
                   </li>
                   <li data-aos="fade-up" data-aos-delay="100">
                     <h5 className="title">Embark on a Journey with Us</h5>
                     <p>
-                      Every project brings hope to resilient communities. See
-                      how your support through #United4Change transforms lives.
+                      With each project we undertake, we work to ensure that
+                      every dollar and every effort brings hope to the resilient
+                      communities around the world. Discover how your support
+                      can change lives by supporting #United4change
                     </p>
                   </li>
                   <li data-aos="fade-up" data-aos-delay="200">
@@ -55,8 +62,11 @@ const About = () => {
                       Share Your Support with #United4Change
                     </h5>
                     <p>
-                      Join a global movement for good. Use #United4Change to
-                      share your cause and inspire others to give their way.
+                      We invite you to be part of a global community who share
+                      your values and commitment to positive change through
+                      giving. Use #United4Change to share your chosen cause on
+                      social media and inspire others to join in customizing
+                      their impact.
                     </p>
                   </li>
                 </ul>
@@ -85,24 +95,28 @@ const About = () => {
       {/*====== Feature Section Start ======*/}
       <section className="feature-section primary-soft-bg section-gap">
         <div className="container">
-          <div className="common-heading text-center mb-30">
+          <div className="common-heading text-center -mt-30 mb-30">
             <span className="tagline">
               <i className="fas fa-plus" /> What We Do
               <span className="heading-shadow-text">Values</span>
             </span>
+            <h2 className="title">Our Vision</h2>
+            <p className="clik mb-5">
+              To create a world where giving is easy, transparent, and
+              impactful.
+            </p>
             <h2 className="title">Our Mission</h2>
-            <p className="clik">
-              Our mission at United4Change goes beyond fashion or merch; it’s a
-              call to action, a promise to empower everyone, transforming lives
-              in the face of adversity. We are dedicated to bringing hope and
-              support to resilient communities by providing essential resources
-              in the realms of health, education, and living essentials
+            <p className="clik mb-5">
+              Our mission at United4Change goes beyond charity; it's a movement
+              to empower everyone and strengthen resilient communities by
+              providing essential resources in health, education, and basic
+              needs.
             </p>
             <h2 className="title">Our Core Values</h2>
           </div>
           <div className="row icon-boxes justify-content-center">
             <div
-              className="col-lg-4 col-md-6 col-sm-9 "
+              className="col-lg-4 col-md-6 col-sm-9"
               data-aos="fade-up"
               data-aos-delay="100"
             >
@@ -112,16 +126,15 @@ const About = () => {
                 </div>
                 <h5 className="title">Empowerment Through Choice</h5>
                 <p>
-                  We are committed to empowering individuals who understand the
-                  needs of the community to make a difference through.
+                  We put the power of giving into your hands so you can support
+                  the causes closest to your heart.
                 </p>
-
                 <span className="box-index">01</span>
                 <div className="box-img"></div>
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6 col-sm-9 "
+              className="col-lg-4 col-md-6 col-sm-9"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -133,15 +146,16 @@ const About = () => {
                 <p>
                   Collaboration is at the heart of our approach to ensure
                   impactful, grassroots-level change. We understand that
-                  collective challenges demand a united front.
+                  collective challenges demand a united front, and we work with
+                  local leaders and global partners to create sustainable
+                  solutions.
                 </p>
-
                 <span className="box-index">02</span>
                 <div className="box-img"></div>
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6 col-sm-9 "
+              className="col-lg-4 col-md-6 col-sm-9"
               data-aos="fade-up"
               data-aos-delay="300"
             >
@@ -151,17 +165,130 @@ const About = () => {
                 </div>
                 <h5 className="title">Transparency and Inclusivity</h5>
                 <p>
-                  Building a global community that operates on integrity, we
-                  maintain open communication and an inclusive environment.
+                  Our diverse global community operates on integrity, openness,
+                  and equal access for all, empowering everyone to be part of
+                  the change.
                 </p>
-
                 <span className="box-index">03</span>
                 <div className="box-img"></div>
               </div>
             </div>
           </div>
+
+          <div className="common-heading text-center mt-60 mb-30">
+            <h2 className="title">How We Use Technology to Transform Giving</h2>
+            <p className="clik mb-5">
+              United4Change leverages blockchain and digital cash to create a
+              smarter, faster, and more transparent way to give.
+            </p>
+          </div>
+
+          <div className="row icon-boxes justify-content-center">
+            <div
+              className="col-lg-6 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div className="icon-box mt-30">
+                <div className="icon">
+                  <i className="fas fa-lock" />
+                </div>
+                <h5 className="title">Transparency</h5>
+                <p>
+                  See exactly where your money goes. Blockchain technology makes
+                  every transaction public, immutable, and tamper-proof.
+                </p>
+                <div className="box-img"></div>
+              </div>
+            </div>
+            <div
+              className="col-lg-6 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div className="icon-box mt-30">
+                <div className="icon">
+                  <i className="fas fa-coins" />
+                </div>
+                <h5 className="title">Lower Costs</h5>
+                <p>
+                  Using stablecoins reduces high transaction fees, allowing more
+                  of your donation to reach the people and projects that need
+                  it.
+                </p>
+                <div className="box-img"></div>
+              </div>
+            </div>
+            <div
+              className="col-lg-6 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div className="icon-box mt-30">
+                <div className="icon">
+                  <i className="fas fa-bolt" />
+                </div>
+                <h5 className="title">Faster Transactions</h5>
+                <p>
+                  Donations are processed instantly—no bank delays—so funds
+                  reach the intended recipients without unnecessary holdups.
+                </p>
+                <div className="box-img"></div>
+              </div>
+            </div>
+            <div
+              className="col-lg-6 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div className="icon-box mt-30">
+                <div className="icon">
+                  <i className="fas fa-globe" />
+                </div>
+                <h5 className="title">Global Reach</h5>
+                <p>
+                  Our digital giving system enables donations from anywhere in
+                  the world, making giving borderless and barrier-free.
+                </p>
+                <div className="box-img"></div>
+              </div>
+            </div>
+            <div className="col-lg-12" data-aos="fade-up" data-aos-delay="500">
+              <div className="icon-box mt-30 text-center">
+                <div className="icon">
+                  <i className="fas fa-shield-alt" />
+                </div>
+                <h5 className="title">Security & Accountability</h5>
+                <p>
+                  Every donation is encrypted and traceable from the moment it's
+                  made until it reaches the project, ensuring full transparency
+                  and accountability.
+                </p>
+                <div className="box-img"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-60">
+            <h4 className="title mb-3">Why Now?</h4>
+            <p className="clik mb-4">
+              We understand that digital giving may feel new, but it has the
+              power to transform trust in charity. By adopting secure,
+              transparent systems powered by blockchain, United4Change is
+              helping donors give with confidence.
+            </p>
+            <p className="clik mb-4">
+              Inclusivity: By offering card and digital cash options, we make
+              giving accessible to all — from traditional donors to the next
+              generation of changemakers.
+            </p>
+            <a href="#donate" className="main-btn">
+              Make a Digital Donation
+            </a>
+          </div>
         </div>
       </section>
+
       {/*====== Feature Section End ======*/}
 
       {/*====== Counter With Image Text Block Start ======*/}

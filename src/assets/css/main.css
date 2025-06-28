@@ -5476,3 +5476,13 @@ a:hover {
     justify-content: center;
   }
 }
+
+.fla {
+  width: 60px;
+}
+
+.flat {
+  width: 140px;
+  height: 80px;
+
+}
