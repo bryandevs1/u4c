@@ -6,7 +6,7 @@ import PageBanner from "../components//PageBanner";
 import VideoPopup from "../components//VideoPopup";
 import Layout from "../layouts/Layout2";
 import { teamSlider } from "../sliderProps";
-import img1 from "../assets/img/u4c4.png";
+import img1 from "../assets/img/U4C4.png";
 import img2 from "../assets/img/U4C3.png";
 import img3 from "../assets/img/U4C2.png";
 import tans2 from "../assets/img/icons/Transparent by Design.svg";
@@ -333,9 +333,7 @@ const About = () => {
                     <img src={tans} className="fla" />
                   </div>
                   <div className="contente">
-                    <span className="d-blck title">
-                      Milestone-Based Giving
-                    </span>
+                    <span className="d-blck title">Milestone-Based Giving</span>
                     <p className="mx-auto">
                       Donations are held in smart digital vaults and only
                       released when verified milestones are met.
