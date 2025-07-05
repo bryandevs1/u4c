@@ -19,7 +19,7 @@ const NewsStandard = () => {
   return (
     <Layout>
       {video && <VideoPopup close={setVideo} />}
-      <PageBanner pageName="Cash vs Crypto" />
+      <PageBanner pageName="How Digital Giving works" />
       <section className="blog-area section-gap-extra-bottom primary-soft-bg">
         <div className="container">
           <div className="row">
@@ -104,7 +104,6 @@ const NewsStandard = () => {
                   </li>
                 </ul>
               </div>
-
             </div>
           </div>
         </div>

@@ -126,7 +126,7 @@ const MobileHeader = ({
           </li>
 
           <li>
-            <Link to="/cvp">Cash vs Crypto</Link>
+            <Link to="/cvp">How Digital Giving works</Link>
           </li>
         </ul>
         <div className="panel-extra">

@@ -11,11 +11,14 @@ import heroline from "../assets/img/hero/hero-line.png";
 import heroline2 from "../assets/img/hero/hero-line-2.png";
 import bg4 from "../assets/img/tamarind2.jpeg";
 import img2 from "../assets/img/tamarind2.jpeg";
-import bg6 from "../assets/img/01.png"; 
+import bg6 from "../assets/img/01.png";
 import bg7 from "../assets/img/bg.png";
 import img4 from "../assets/img/icons/Start A Project.svg";
 import img7 from "../assets/img/icons/Donate.svg";
-import tans from "../assets/img/icons/Transparent by Design.svg";
+import tan2 from "../assets/img/icons/Transparent by Design.svg";
+import tan1 from "../assets/img/icons/Impact-First.svg";
+import tans from "../assets/img/icons/Milestone-Based Giving_1.svg";
+import tan3 from "../assets/img/icons/Powered by Purposeful Tech.svg";
 
 const Index = () => {
   useEffect(() => {
@@ -376,54 +379,67 @@ const Index = () => {
       <section className="mb-80 counter-with-image-text-block">
         <div className="counter-boxes-area primary-soft-bg">
           <div className="container">
-            <div className="row counter-boxes justify-content-lg-between justify-content-center">
-              <div className="col-xl-auto col-lg-3 col-md-6 col-sm-8">
-                <div className="counter-box mb-60">
-                  <div className="icon">
-                    <i className="flaticon-crowdfunding" />
+            <div className="row justify-content-center">
+              <div className="col-lg-3 col-md-6 d-flex">
+                <div className="counter-box mb-60 text-center d-flex flex-column justify-content-between w-100">
+                  <div className="icon mx-auto">
+                    <img src={tan1} className="fla" />
                   </div>
                   <div className="content">
-                    <div className="count-wrap">
-                      <span className="suffix">Global</span>
-                    </div>
-                    <p>
-                      We work with credible <br />
-                      local organizations worldwide <br />
-                      to reach communities often left behind.
+                    <span className="d-block title">Impact <br /> First</span>
+                    <p className="mx-auto">
+                      Every project is chosen by the communities it serves — so
+                      your donation directly fuels real, local impact.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-xl-auto col-lg-3 col-md-6 col-sm-8">
-                <div className="counter-box mb-60">
-                  <div className="icon">
-                    <img src={tans} className="fla" />
+
+              <div className="col-lg-3 col-md-6 d-flex">
+                <div className="counter-box2 mb-60 text-center d-flex flex-column justify-content-between w-100">
+                  <div className="icon mx-auto">
+                    <img src={tans} className="fla jii" />
                   </div>
                   <div className="content">
-                    <div className="count-wrap">
-                      <span className="suffix">Transparency</span>
-                    </div>
-                    <p>
-                      We ensure donors can trace <br />
-                      exactly how and where <br />
-                      their money is used.
+                    <span className="d-blck titl titles">
+                      Milestone-Based Giving
+                    </span>
+                    <p className="mx-auto">
+                      Donations are held in smart digital vaults and only
+                      released when verified milestones are met.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-xl-auto col-lg-3 col-md-6 col-sm-8">
-                <div className="counter-box mb-60">
-                  <div className="icon">
-                    <i className="flaticon-badges" />
+
+              <div className="col-lg-3 col-md-6 d-flex">
+                <div className="counter-box mb-60 text-center d-flex flex-column justify-content-between w-100">
+                  <div className="icon mx-auto">
+                    <img src={tan2} className="fla" />
                   </div>
                   <div className="content">
-                    <div className="count-wrap">
-                      <span className="suffix">Innovation</span>
-                    </div>
-                    <p>
-                      With blockchain and digital cash, <br />
-                      we offer secure, transparent, <br />
-                      and borderless giving.
+                    <span className="d-block title">Transparent by Design</span>
+                    <p className="mx-auto">
+                      Every donation is traceable. See where your support goes,
+                      who it helps, and what changes — in real time.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-6 d-flex">
+                <div className="counter-box mb-60 text-center d-flex flex-column justify-content-between w-100">
+                  <div className="icon mx-auto">
+                    <img src={tan3} className="fla" />
+                  </div>
+                  <div className="content">
+                    <span className="d-block title">
+                      Powered by Purposeful Tech
+                    </span>
+                    <p className="mx-auto">
+                      We use secure, open digital tools like blockchain and
+                      stable digital cash to make giving more accountable,
+                      borderless, and fair.
                     </p>
                   </div>
                 </div>
@@ -432,6 +448,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+
       {/*====== Testimonials End ======*/}
       {/*====== Emergency Project & CTA Start ======*/}
 

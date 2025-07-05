@@ -38,7 +38,11 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
             <div className="site-logo">
               <Link to="/">
                 {/* Change logo based on sticky state */}
-                <img className={isSticky ? null : `flat`} src={isSticky ? logoAlt : logo} alt="U4C" />
+                <img
+                  className={isSticky ? null : `flat`}
+                  src={isSticky ? logoAlt : logo}
+                  alt="U4C"
+                />
               </Link>
             </div>
             <div className="nav-menu" id="menu">
@@ -72,7 +76,7 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                     to="/cvp"
                     className={`nav-link ${isSticky ? "sticky-nav-link" : ""}`}
                   >
-                    Cash vs Crypto
+                    How Digital Giving works
                   </Link>
                 </li>
               </ul>

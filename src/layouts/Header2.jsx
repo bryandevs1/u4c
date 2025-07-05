@@ -84,7 +84,7 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                       isSticky ? "sticky-nav-link" : "sticky-nav-link"
                     }`}
                   >
-                    Cash vs Crypto
+                    How Digital Giving works
                   </Link>
                 </li>
               </ul>
