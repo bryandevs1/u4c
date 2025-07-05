@@ -5,23 +5,23 @@ import { useEffect, useState } from "react";
 
 export function ProfileDropdown() {
   const userName = "Bryan Ojji";
-    const [isSticky, setIsSticky] = useState(false);
-  
-    useEffect(() => {
-      const handleScroll = () => {
-        // Check if window is defined (for SSR)
-        if (typeof window !== "undefined") {
-          const scrollPosition = window.scrollY;
-          // Change state when scrolled past 100px (adjust as needed)
-          setIsSticky(scrollPosition > 100);
-        }
-        stickyNav(); // keep your existing sticky functionality
-      };
-  
-      window.addEventListener("scroll", handleScroll);
-      return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
-  
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Check if window is defined (for SSR)
+      if (typeof window !== "undefined") {
+        const scrollPosition = window.scrollY;
+        // Change state when scrolled past 100px (adjust as needed)
+        setIsSticky(scrollPosition > 100);
+      }
+      stickyNav(); // keep your existing sticky functionality
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const { disconnect } = useDisconnect();
 
   const logout = async () => {
@@ -36,7 +36,7 @@ export function ProfileDropdown() {
             <div className="d-flex align-items-center gap-2">
               <span
                 className={`user-name ${
-                  isSticky ? "sticky-nav-link" : "text-white"
+                  isSticky ? "sticky-nav-link" : ""
                 } mr-2`}
               >
                 {userName}

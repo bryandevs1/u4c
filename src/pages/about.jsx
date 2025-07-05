@@ -6,10 +6,12 @@ import PageBanner from "../components//PageBanner";
 import VideoPopup from "../components//VideoPopup";
 import Layout from "../layouts/Layout2";
 import { teamSlider } from "../sliderProps";
-import img1 from "../assets/img/U4C4.png";
+import img1 from "../assets/img/abot.png";
 import img2 from "../assets/img/U4C3.png";
 import img3 from "../assets/img/U4C2.png";
-import tans from "../assets/img/icons/Transparent by Design.svg";
+import tans from "../assets/img/icons/Empowerment Through Choice.svg";
+import tans2 from "../assets/img/icons/Collaboration.svg";
+import tans3 from "../assets/img/icons/Transparency and Inclusivity.svg";
 
 const About = () => {
   const [video, setVideo] = useState(false);
@@ -123,7 +125,7 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="flaticon-debit-card" />
+                  <img src={tans} className="fla" />
                 </div>
                 <h5 className="title">Empowerment Through Choice</h5>
                 <p>
@@ -141,7 +143,7 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="flaticon-payment" />
+                  <img src={tans2} className="fla" />
                 </div>
                 <h5 className="title">Collaboration</h5>
                 <p>
@@ -162,7 +164,7 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="flaticon-wallet-1" />
+                  <img src={tans3} className="fla" />
                 </div>
                 <h5 className="title">Transparency and Inclusivity</h5>
                 <p>

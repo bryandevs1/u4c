@@ -1218,7 +1218,7 @@ a:hover {
 }
 
 .site-footer .footer-cta .container::before {
-  background-color: #e9262a;
+  background-color: #33b2ba;
 }
 .text-smm {
   font-size: 1.2rem;
@@ -1252,6 +1252,20 @@ a:hover {
   color: var(--primary-color);
 }
 
+.primaryy-btn {
+  background-color: #dc2428;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.primaryy-btn:hover {
+  background-color: #1a3439;
+  color: white;
+}
 .site-footer .footer-widgets {
   padding: 70px 0 20px;
 }
@@ -1586,8 +1600,9 @@ a:hover {
 }
 
 .hero-area-one .hero-text .main-btn {
-  background-color: transparent;
-  border: 2px solid #e3cda8;
+  background-color: #e9262a;
+  margin-top: 20px;
+    border: 2px solid #e3cda8;
   color: white;
 }
 
@@ -2128,7 +2143,7 @@ a:hover {
 }
 
 .project-items .project-item .cats a {
-  background-color: var(--primary-color);
+  background-color: #33b2ba;
   color: var(--white);
   font-size: 16px;
   font-weight: 700;

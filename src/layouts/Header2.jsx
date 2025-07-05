@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { stickyNav } from "../utils";
 import logoAlt from "../assets/ORIGINAL-LOGO.png";
 import logo from "../assets/ORIGINAL-LOGO.png"; // import your alternate logo
-import { ProfileDropdown } from "../components/dropdown";
+import { ProfileDropdown } from "../components/Dropdown2";
 
 const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
   const [isSticky, setIsSticky] = useState(false);

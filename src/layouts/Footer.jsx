@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/img/u4cw.png";
+import { Button } from "react-bootstrap";
 const Footer = ({ footerSolidBg }) => {
   return (
     <footer
@@ -12,20 +13,17 @@ const Footer = ({ footerSolidBg }) => {
           <div className="container">
             <div className="row justify-content-lg-between justify-content-center align-items-center">
               <div className="col-lg-7 col-md-8 col-sm-10">
-                <h3 className="cta-title">
-                  Get Involved
-                </h3>
+                <h3 className="cta-title">Get Involved</h3>
                 <p className="cta-subtitle text-white">
                   Whether you’re donating, fundraising, or spreading the word,
                   you’re shaping lives.
                 </p>
               </div>
               <div className="col-lg-auto col-md-6">
-                <Link
-                  to="/explore"
-                  className="main-btn bordered-btn bordered-white mt-md-30"
-                >
-                  Make A Donation <i className="far fa-arrow-right" />
+                <Link to="/explore">
+                  <Button className="primaryy-btn mt-md-30">
+                    Make A Digital Donation <i className="far fa-arrow-right" />
+                  </Button>
                 </Link>
               </div>
             </div>
