@@ -6,13 +6,16 @@ import PageBanner from "../components//PageBanner";
 import VideoPopup from "../components//VideoPopup";
 import Layout from "../layouts/Layout2";
 import { teamSlider } from "../sliderProps";
-import img1 from "../assets/img/abot.png";
+import img1 from "../assets/img/u4c4.png";
 import img2 from "../assets/img/U4C3.png";
 import img3 from "../assets/img/U4C2.png";
 import tans2 from "../assets/img/icons/Transparent by Design.svg";
 import tan1 from "../assets/img/icons/Impact-First.svg";
 import tans from "../assets/img/icons/Milestone-Based Giving_1.svg";
 import tans3 from "../assets/img/icons/Powered by Purposeful Tech.svg";
+import tans4 from "../assets/img/icons/Empowerment Through Choice.svg";
+import tans5 from "../assets/img/icons/Collaboration.svg";
+import tans6 from "../assets/img/icons/Transparency and Inclusivity.svg";
 
 const About = () => {
   const [video, setVideo] = useState(false);
@@ -126,7 +129,7 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <img src={tans} className="fla" />
+                  <img src={tans4} className="fla" />
                 </div>
                 <h5 className="title">Empowerment Through Choice</h5>
                 <p>
@@ -144,7 +147,7 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <img src={tans2} className="fla" />
+                  <img src={tans5} className="fla" />
                 </div>
                 <h5 className="title">Collaboration</h5>
                 <p>
@@ -165,7 +168,7 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <img src={tans3} className="fla" />
+                  <img src={tans6} className="fla" />
                 </div>
                 <h5 className="title">Transparency and Inclusivity</h5>
                 <p>
