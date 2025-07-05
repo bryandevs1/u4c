@@ -41,9 +41,9 @@ const Footer = ({ footerSolidBg }) => {
                     <img src={logo} alt="u4c" />
                   </div>
                   <p>
-                    Our journey is fueled by compassion and a profound
-                    mission—to usher transformative change by providing
-                    essential resources to communities facing challenges{" "}
+                    Driven by compassion, powered by technology — we connect
+                    people to purpose and bring resources where
+                    they’re needed most{" "}
                   </p>
                 </div>
               </div>
