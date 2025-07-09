@@ -103,10 +103,7 @@ const About = () => {
       <section className="feature-section primary-soft-bg section-gap">
         <div className="container">
           <div className="common-heading text-center -mt-30 mb-30">
-            <span className="tagline">
-              <i className="fas fa-plus" /> What We Do
-              <span className="heading-shadow-text">Values</span>
-            </span>
+
             <h2 className="title">Our Vision</h2>
             <p className="clik mb-5">
               To create a world where giving is easy, transparent, and
@@ -136,7 +133,6 @@ const About = () => {
                   We put the power of giving into your hands so you can support
                   the causes closest to your heart.
                 </p>
-                <span className="box-index">01</span>
                 <div className="box-img"></div>
               </div>
             </div>
@@ -157,7 +153,6 @@ const About = () => {
                   local leaders and global partners to create sustainable
                   solutions.
                 </p>
-                <span className="box-index">02</span>
                 <div className="box-img"></div>
               </div>
             </div>
@@ -176,7 +171,6 @@ const About = () => {
                   and equal access for all, empowering everyone to be part of
                   the change.
                 </p>
-                <span className="box-index">03</span>
                 <div className="box-img"></div>
               </div>
             </div>
@@ -307,7 +301,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="counter-boxes-area secondary-bg">
+        <div className="counter-boxes-area seconday-bg">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-3 col-md-6 d-flex">
@@ -315,7 +309,7 @@ const About = () => {
                   <div className="icon mx-auto">
                     <img src={tan1} className="fla" />
                   </div>
-                  <div className="contente">
+                  <div className="content">
                     <span className="d-block title">
                       Impact <br /> First
                     </span>
@@ -328,12 +322,14 @@ const About = () => {
               </div>
 
               <div className="col-lg-3 col-md-6 d-flex">
-                <div className="counter-box mb-60 text-center d-flex flex-column justify-content-between w-100">
+                <div className="counter-box2 mb-60 text-center d-flex flex-column justify-content-between w-100">
                   <div className="icon mx-auto">
-                    <img src={tans} className="fla" />
+                    <img src={tans} className="fla jii" />
                   </div>
-                  <div className="contente">
-                    <span className="d-blck title">Milestone-Based Giving</span>
+                  <div className="content">
+                    <span className="d-blck titl titles">
+                      Milestone-Based Giving
+                    </span>
                     <p className="mx-auto">
                       Donations are held in smart digital vaults and only
                       released when verified milestones are met.
@@ -347,7 +343,7 @@ const About = () => {
                   <div className="icon mx-auto">
                     <img src={tans2} className="fla" />
                   </div>
-                  <div className="contente">
+                  <div className="content">
                     <span className="d-block title">Transparent by Design</span>
                     <p className="mx-auto">
                       Every donation is traceable. See where your support goes,
@@ -362,7 +358,7 @@ const About = () => {
                   <div className="icon mx-auto">
                     <img src={tans3} className="fla" />
                   </div>
-                  <div className="contente">
+                  <div className="content">
                     <span className="d-block title">
                       Powered by Purposeful Tech
                     </span>
