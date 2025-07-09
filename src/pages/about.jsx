@@ -301,7 +301,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="counter-boxes-area seconday-bg">
+        <div className="counter-boxes-area conday-bg">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-3 col-md-6 d-flex">

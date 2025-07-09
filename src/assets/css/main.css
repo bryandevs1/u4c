@@ -5565,6 +5565,10 @@ a:hover {
   border: none !important; /* Removes any border lines */
 }
 
+.conday-bg {
+  background-color: #edf9f3;
+}
+
 .icon {
   margin-bottom: 1rem;
 }
