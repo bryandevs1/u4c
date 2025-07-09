@@ -268,7 +268,7 @@ const Index = () => {
             <div className="row justify-content-center">
               {/* LEFT COLUMN */}
               <div className="col-xl-4 col-lg-5 col-md-9">
-                <div className="content text-center">
+                <div className="conten text-center">
                   <img
                     src={img7}
                     alt="Logo"
@@ -276,8 +276,10 @@ const Index = () => {
                     style={{ width: "60px" }}
                   />
                   <h2 className="cta-title">Donate</h2>
-                  <p>
-                    Your donation supports vital campaigns worldwide. Every
+                  <p className="">
+                    Your donation supports vital <br /> campaigns worldwide.
+                    Every
+                    <br />
                     dollar counts.
                   </p>
                   <Link to="/" className="main-btn">
@@ -290,7 +292,7 @@ const Index = () => {
 
               {/* RIGHT COLUMN */}
               <div className="col-xl-4 col-lg-5 col-md-9">
-                <div className="content text-center">
+                <div className="contet text-center">
                   <img
                     src={img4}
                     alt="Logo"
@@ -300,8 +302,9 @@ const Index = () => {
                   <h2 className="cta-title">Start A Project</h2>
                   <p>
                     {" "}
-                    Nonprofits ready to make a difference can start their own
-                    fundraising campaign here.
+                    Nonprofits ready to make
+                    <br /> a difference can start their
+                    <br /> own fundraising campaign here.
                   </p>
                   <Link to="/" className="main-btn">
                     Start a Project <i className="far fa-arrow-right" />
@@ -386,7 +389,9 @@ const Index = () => {
                     <img src={tan1} className="fla" />
                   </div>
                   <div className="content">
-                    <span className="d-block title">Impact <br /> First</span>
+                    <span className="d-block title">
+                      Impact <br /> First
+                    </span>
                     <p className="mx-auto">
                       Every project is chosen by the communities it serves — so
                       your donation directly fuels real, local impact.

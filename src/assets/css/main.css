@@ -1283,6 +1283,7 @@ a:hover {
 
 .footer-widgets .widget.about-widget .footer-logo {
   margin-bottom: 40px;
+  margin-left: -40px;
 }
 
 .footer-widgets .widget.about-widget p {
@@ -2783,6 +2784,12 @@ a:hover {
   color: var(--primary-color);
 }
 
+.text-center {
+  text-align: center; 
+  justify-content: center;
+
+}
+
 .project-details-tab .nav-tabs .nav-item .nav-link.active::before,
 .project-details-tab .nav-tabs .nav-item .nav-link:hover::before {
   opacity: 1;
@@ -3310,6 +3317,12 @@ a:hover {
   padding: 80px 55px;
   color: var(--white);
   text-align: center;
+}
+
+.cta-box p {
+  color: var(--white);
+  text-align: center;
+  margin-left: auto;
 }
 
 .cta-box .cta-title {

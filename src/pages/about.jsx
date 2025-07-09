@@ -6,7 +6,7 @@ import PageBanner from "../components//PageBanner";
 import VideoPopup from "../components//VideoPopup";
 import Layout from "../layouts/Layout2";
 import { teamSlider } from "../sliderProps";
-import img1 from "../assets/img/U4C4.png";
+import img1 from "../assets/img/afri.jpg";
 import img2 from "../assets/img/U4C3.png";
 import img3 from "../assets/img/U4C2.png";
 import tans2 from "../assets/img/icons/Transparent by Design.svg";
