@@ -16,6 +16,11 @@ import tans3 from "../assets/img/icons/Powered by Purposeful Tech.svg";
 import tans4 from "../assets/img/icons/Empowerment Through Choice.svg";
 import tans5 from "../assets/img/icons/Collaboration.svg";
 import tans6 from "../assets/img/icons/Transparency and Inclusivity.svg";
+import tan5 from "../assets/img/TRANSPARENCY.svg";
+import tan6 from "../assets/img/LOWER COST.svg";
+import tan7 from "../assets/img/Faster Transactions.svg";
+import tan8 from "../assets/img/Global Reach.svg";
+import tan9 from "../assets/img/SECURITY.svg";
 
 const About = () => {
   const [video, setVideo] = useState(false);
@@ -103,7 +108,6 @@ const About = () => {
       <section className="feature-section primary-soft-bg section-gap">
         <div className="container">
           <div className="common-heading text-center -mt-30 mb-30">
-
             <h2 className="title">Our Vision</h2>
             <p className="clik mb-5">
               To create a world where giving is easy, transparent, and
@@ -192,7 +196,7 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="fas fa-lock" />
+                  <img src={tan5} className="fla" />
                 </div>
                 <h5 className="title">Transparency</h5>
                 <p>
@@ -209,7 +213,7 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="fas fa-coins" />
+                  <img src={tan6} className="fla" />
                 </div>
                 <h5 className="title">Lower Costs</h5>
                 <p>
@@ -227,7 +231,7 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="fas fa-bolt" />
+                  <img src={tan7} className="fla" />
                 </div>
                 <h5 className="title">Faster Transactions</h5>
                 <p>
@@ -244,7 +248,7 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="fas fa-globe" />
+                  <img src={tan8} className="fla" />
                 </div>
                 <h5 className="title">Global Reach</h5>
                 <p>
@@ -257,7 +261,7 @@ const About = () => {
             <div className="col-lg-12" data-aos="fade-up" data-aos-delay="500">
               <div className="icon-box mt-30 text-center">
                 <div className="icon">
-                  <i className="fas fa-shield-alt" />
+                  <img src={tan9} className="fla" />
                 </div>
                 <h5 className="title">Security & Accountability</h5>
                 <p>
