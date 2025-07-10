@@ -383,65 +383,82 @@ const Index = () => {
         <div className="counter-boxes-area primary-soft-bg">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-3 col-md-6 d-flex">
-                <div className="counter-box mb-60 text-center d-flex flex-column justify-content-between w-100">
+              <div className="col-lg-3 col-md-6">
+                <div className="counter-box mb-60 text-center h-100 d-flex flex-column">
+                  {" "}
+                  {/* Added h-100 */}
                   <div className="icon mx-auto">
-                    <img src={tan1} className="fla" />
+                    <img src={tan1} className="fla" alt="Impact First icon" />
                   </div>
-                  <div className="content">
+                  <div className="content flex-grow-1 d-flex flex-column">
+                    {" "}
+                    {/* Added flex classes */}
                     <span className="d-block title">
                       Impact <br /> First
                     </span>
                     <p className="mx-auto">
+                      {" "}
+                      {/* Added mt-auto */}
                       Every project is chosen by the communities it serves — so
                       your donation directly fuels real, local impact.
                     </p>
                   </div>
                 </div>
               </div>
-
-              <div className="col-lg-3 col-md-6 d-flex">
-                <div className="counter-box2 mb-60 text-center d-flex flex-column justify-content-between w-100">
+              <div className="col-lg-3 col-md-6">
+                <div className="counter-box mb-60 text-center h-100 d-flex flex-column">
+                  {" "}
+                  {/* Changed to counter-box */}
                   <div className="icon mx-auto">
-                    <img src={tans} className="fla jii" />
+                    <img src={tans} className="fla jii" alt="Milestone icon" />
                   </div>
-                  <div className="content">
-                    <span className="d-blck titl titles">
+                  <div className="content flex-grow-1 d-flex flex-column">
+                    <span className="d-block title">
+                      {" "}
+                      {/* Changed from titl titles */}
                       Milestone-Based Giving
                     </span>
-                    <p className="mx-auto">
+                    <p className="mx-auto ">
                       Donations are held in smart digital vaults and only
                       released when verified milestones are met.
                     </p>
                   </div>
                 </div>
               </div>
-
-              <div className="col-lg-3 col-md-6 d-flex">
-                <div className="counter-box mb-60 text-center d-flex flex-column justify-content-between w-100">
+              <div className="col-lg-3 col-md-6">
+                <div className="counter-box mb-60 text-center h-100 d-flex flex-column">
+                  {" "}
+                  {/* Changed to counter-box */}
                   <div className="icon mx-auto">
-                    <img src={tan2} className="fla" />
+                    <img src={tan2} className="fla jii" alt="Milestone icon" />
                   </div>
-                  <div className="content">
-                    <span className="d-block title">Transparent by Design</span>
-                    <p className="mx-auto">
+                  <div className="content flex-grow-1 d-flex flex-column">
+                    <span className="d-block title">
+                      {" "}
+                      {/* Changed from titl titles */}
+                      Transparent by Design{" "}
+                    </span>
+                    <p className="mx-auto ">
                       Every donation is traceable. See where your support goes,
                       who it helps, and what changes — in real time.
                     </p>
                   </div>
                 </div>
               </div>
-
-              <div className="col-lg-3 col-md-6 d-flex">
-                <div className="counter-box mb-60 text-center d-flex flex-column justify-content-between w-100">
+              <div className="col-lg-3 col-md-6">
+                <div className="counter-box mb-60 text-center h-100 d-flex flex-column">
+                  {" "}
+                  {/* Changed to counter-box */}
                   <div className="icon mx-auto">
-                    <img src={tan3} className="fla" />
+                    <img src={tan3} className="fla jii" alt="Milestone icon" />
                   </div>
-                  <div className="content">
+                  <div className="content flex-grow-1 d-flex flex-column">
                     <span className="d-block title">
+                      {" "}
+                      {/* Changed from titl titles */}
                       Powered by Purposeful Tech
                     </span>
-                    <p className="mx-auto">
+                    <p className="mx-auto ">
                       We use secure, open digital tools like blockchain and
                       stable digital cash to make giving more accountable,
                       borderless, and fair.

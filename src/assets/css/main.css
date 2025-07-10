@@ -2970,18 +2970,7 @@ a:hover {
 }
 
 .counter-boxes .counter-box p {
-  margin-top: 20px;
-  position: relative;
   padding-left: 30px;
-}
-
-.counter-boxes .counter-box p::before {
-  content: "";
-  left: 0;
-  top: 0;
-  width: 3px;
-  height: 100%;
-  position: absolute;
 }
 
 .counter-boxes .counter-box.icon-left {
@@ -5555,6 +5544,22 @@ a:hover {
   width: 140px;
   height: 80px;
 
+}
+.counter-box {
+  height: 100%; /* Ensure all boxes take full height */
+}
+
+.icon {
+  height: 80px; /* Fixed height for icons */
+  margin-bottom: 20px; /* Consistent spacing */
+}
+
+.title {
+  min-height: 60px; /* Fixed height for titles */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .sticky-nav-link {
